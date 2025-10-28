@@ -13,8 +13,16 @@ public class job02 {
             }
 
         }
+
+        for (int x = 0; x < 1338; x++) {
+            if (x == (a) || x == (b) || x == (c) || x == (d)) {
+                continue;
+            }   System.out.println(x);
+            }
+        }
+
     }
-}
+
 
 
 
