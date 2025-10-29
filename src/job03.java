@@ -5,7 +5,7 @@ public class job03 {
             if (i >= 0 && i <= 20) {
                 System.out.println("_." + i + "_.");
             } else if (i == 42) {
-                System.out.println("_" + i + "_");
+                System.out.println("La Plateforme_");
             } else if (i >= 25 && i <= 50) {
                 System.out.println("__." + i + "__.");
             } else {

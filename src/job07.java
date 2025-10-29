@@ -43,18 +43,31 @@ public class job07 {
 
 
         /*Exercice losange*/
-
-        int haut = 6;
-        for (int a = 0; a < haut; a++) {
-            for (int b = a; b < haut - 1; b++) {
+        int haut = 5;
+        for (int i = 1; i <= haut; i++) {
+            for (int j = 1; j <= haut - i; j++) {
                 System.out.print(" ");
             }
+            for (int j = 1; j <= i * 2 - 1; j++) {
+                System.out.print("*");
 
-
+            }
+            System.out.println();
         }
 
+        for (int i = haut - 1; i >= 1; i--) {
+            for (int j = 1; j <= haut - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= i * 2 - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
+
+
 
 
 

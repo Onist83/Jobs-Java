@@ -9,10 +9,12 @@ public class job06 {
         for(int x=0; x<hauteur;x++) {
             System.out.println(" ");
             for (int y = 0; y < largeur; y++) {
-                System.out.print("*"+" ");
+                System.out.print("*");
             }
 
         }
     }
 }
-
+/* Correction
+    Inverser println et print
+ */
